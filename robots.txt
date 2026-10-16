@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mtfsahin.github.io/brace-site/sitemap.xml
