@@ -69,7 +69,7 @@ header.top .lang li a[aria-current] { background: var(--card); }
 }
 
 .hero { position: relative; min-height: 560px; display: flex; align-items: flex-end; overflow: hidden; border-radius: 28px; }
-.hero::before { content: ""; position: absolute; inset: 0; background: url(brace-plates.svg) center / cover no-repeat; }
+.hero::before { content: ""; position: absolute; inset: 0; background: url(brace-ring.svg) center / cover no-repeat; }
 .hero::after {
   content: ""; position: absolute; inset: 0;
   background: linear-gradient(transparent 50%, var(--night)), linear-gradient(90deg, rgba(8, 9, 10, 0.85), rgba(8, 9, 10, 0.4) 45%, transparent 70%);
