@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Política de privacidade do Brace</title>
-  <meta name="description" content="O Brace não tem contas, anúncios, análises nem servidor próprio. Os seus treinos ficam nos seus aparelhos.">
+  <meta name="description" content="O Brace não tem contas, anúncios, análises nem servidor que guarde os seus dados. Os seus treinos ficam nos seus aparelhos, a menos que você escolha compartilhá-los.">
   <meta name="theme-color" content="#1c1f22">
   <link rel="canonical" href="https://mtfsahin.github.io/brace-site/pt-BR/privacy.html">
   <link rel="alternate" hreflang="en" href="https://mtfsahin.github.io/brace-site/privacy.html">
@@ -25,7 +25,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Brace">
   <meta property="og:title" content="Política de privacidade do Brace">
-  <meta property="og:description" content="O Brace não tem contas, anúncios, análises nem servidor próprio. Os seus treinos ficam nos seus aparelhos.">
+  <meta property="og:description" content="O Brace não tem contas, anúncios, análises nem servidor que guarde os seus dados. Os seus treinos ficam nos seus aparelhos, a menos que você escolha compartilhá-los.">
   <meta property="og:url" content="https://mtfsahin.github.io/brace-site/pt-BR/privacy.html">
   <meta property="og:image" content="https://mtfsahin.github.io/brace-site/og.png">
   <meta property="og:image:width" content="1200">
@@ -33,7 +33,7 @@
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Política de privacidade do Brace">
-  <meta name="twitter:description" content="O Brace não tem contas, anúncios, análises nem servidor próprio. Os seus treinos ficam nos seus aparelhos.">
+  <meta name="twitter:description" content="O Brace não tem contas, anúncios, análises nem servidor que guarde os seus dados. Os seus treinos ficam nos seus aparelhos, a menos que você escolha compartilhá-los.">
   <meta name="twitter:image" content="https://mtfsahin.github.io/brace-site/og.png">
   <link rel="icon" href="../icon.png">
   <link rel="apple-touch-icon" href="../icon.png">
@@ -52,7 +52,9 @@
         <h1>Política de privacidade</h1>
         <p>Em vigor desde 22 de outubro de 2026.</p>
         <p>O Brace não tem contas, anúncios, análises nem servidor que guarde qualquer coisa. As únicas requisições de
-          rede dele são para o Strava, e só depois que você mesmo conectar o Strava (veja abaixo).</p>
+          rede dele são para o Strava, e só depois que você mesmo conectar o Strava (veja abaixo). A única exceção são as
+          páginas e os vídeos oficiais de técnica, que carregam do site de quem os publica, e do YouTube no caso dos
+          vídeos, só quando você os abre; o Brace não envia nada sobre você com eles.</p>
         <h2>Treinos, rotinas e ajustes</h2>
         <p>Eles ficam guardados nos seus aparelhos: no seu iPhone e no backup dele, e no seu Apple Watch, que passa os
           treinos que você registra nele para o iPhone emparelhado. Nós nunca os recebemos. Você pode exportar o seu
@@ -64,14 +66,16 @@
           conectar o app Saúde para a prontidão, ele lê a variabilidade da frequência cardíaca, a frequência cardíaca
           em repouso, a frequência cardíaca, a frequência respiratória, a temperatura do pulso durante o sono, as
           fases do sono, o condicionamento cardiorrespiratório (VO2 máx.), os treinos que outros apps salvaram e a sua
-          data de nascimento e sexo para calcular as suas pontuações de prontidão, carga de treino e sono no aparelho.
+          data de nascimento e sexo para calcular a sua prontidão, carga de treino, sono, sinais noturnos e condicionamento cardiorrespiratório no
+          aparelho e para dar contexto ao treinador no aparelho.
           No Apple Watch, ele lê a sua frequência cardíaca e a energia ativa durante um treino para mostrá-las e
           salvá-las com o treino. Os dados de saúde são usados só para isso, ficam nos seus aparelhos, nunca são
-          enviados para nós nem para ninguém e nunca são usados para publicidade. Você pode desativar isso a qualquer
-          momento nos ajustes do Brace ou no app Saúde.</p>
+          enviados para nós nem para ninguém e nunca são usados para publicidade. Para parar de salvar treinos, desative
+          Salvar treinos no Saúde nos ajustes do Brace. Para o Brace parar de ler dados do Saúde, mude as permissões
+          dele no app Saúde.</p>
         <h2>Apple Intelligence</h2>
         <p>A análise do treino, o criador de rotinas e o Pergunte ao Brace usam o modelo de linguagem da Apple no seu
-          iPhone. O que eles leem do seu registro é processado no aparelho e não é enviado para nós nem para
+          iPhone. O que eles leem do seu registro e do app Saúde é processado no aparelho e não é enviado para nós nem para
           ninguém.</p>
         <h2>Strava</h2>
         <p>Opcional. Só se você conectar a sua conta do Strava nos ajustes do Brace, o Brace envia ao Strava os
@@ -80,8 +84,9 @@
           Quando uma publicação fica sem resposta, o Brace lê as suas atividades do Strava próximas do horário desse
           treino, só para ver se ela chegou, para que nunca seja publicada duas vezes. O Brace não se comunica com o
           Strava para mais nada. O login no Strava, e a renovação desse login, passam por um pequeno retransmissor que
-          mantemos na Cloudflare e que adiciona a chave de app do Brace no Strava: ele vê só os códigos e tokens de
-          login no caminho de ida e volta do Strava, nunca os seus treinos, e não guarda nem registra nada. Depois, o
+          mantemos na Cloudflare e que adiciona a chave de app do Brace no Strava: ele lida só com os códigos e tokens
+          de login, e com o perfil básico que o Strava devolve junto, como o seu nome, no caminho de ida e volta do
+          Strava. Ele nunca vê os seus treinos e não guarda nem registra nada disso. Depois, o
           login fica no keychain do seu iPhone, não em um backup. O que você publica é tratado de acordo com a
           política de privacidade do próprio Strava. Desconectar nos ajustes do Brace revoga o acesso do Brace; as
           atividades já publicadas ficam no Strava até você apagá-las lá. Os dados de saúde nunca são enviados ao
@@ -89,8 +94,10 @@
         <h2>Compras</h2>
         <p>As assinaturas e a compra vitalícia são gerenciadas pela Apple. Nós não vemos os seus dados de pagamento.</p>
         <h2>Apagar seus dados</h2>
-        <p>Apague o app para apagar tudo o que ele guardou. Treinos já salvos no app Saúde continuam lá até você
-          apagá-los no app Saúde.</p>
+        <p>Apagar o app apaga o que ele guardou nos seus aparelhos. Antes, desconecte o Strava nos ajustes do Brace:
+          isso revoga o acesso do Brace e remove o login salvo, que de outra forma pode ficar no keychain do seu
+          iPhone. Treinos já salvos no app Saúde ou publicados no Strava, e arquivos que você exportou, continuam lá
+          até você apagá-los.</p>
         <h2>Contato</h2>
         <p>Perguntas sobre privacidade: escreva para <a href="https://github.com/mtfsahin/brace-site/issues">github.com/mtfsahin/brace-site/issues</a>, ou veja a <a href="support.html">página de suporte</a>.</p>
       </article>

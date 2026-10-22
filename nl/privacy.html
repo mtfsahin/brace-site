@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Brace privacybeleid</title>
-  <meta name="description" content="Brace heeft geen accounts, geen advertenties, geen analytics en geen eigen server. Je workouts blijven op je apparaten.">
+  <meta name="description" content="Brace heeft geen accounts, geen advertenties, geen analytics en geen server die je gegevens bewaart. Je workouts blijven op je apparaten, tenzij je ervoor kiest ze te delen.">
   <meta name="theme-color" content="#1c1f22">
   <link rel="canonical" href="https://mtfsahin.github.io/brace-site/nl/privacy.html">
   <link rel="alternate" hreflang="en" href="https://mtfsahin.github.io/brace-site/privacy.html">
@@ -25,7 +25,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Brace">
   <meta property="og:title" content="Brace privacybeleid">
-  <meta property="og:description" content="Brace heeft geen accounts, geen advertenties, geen analytics en geen eigen server. Je workouts blijven op je apparaten.">
+  <meta property="og:description" content="Brace heeft geen accounts, geen advertenties, geen analytics en geen server die je gegevens bewaart. Je workouts blijven op je apparaten, tenzij je ervoor kiest ze te delen.">
   <meta property="og:url" content="https://mtfsahin.github.io/brace-site/nl/privacy.html">
   <meta property="og:image" content="https://mtfsahin.github.io/brace-site/og.png">
   <meta property="og:image:width" content="1200">
@@ -33,7 +33,7 @@
   <meta property="og:locale" content="nl_NL">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Brace privacybeleid">
-  <meta name="twitter:description" content="Brace heeft geen accounts, geen advertenties, geen analytics en geen eigen server. Je workouts blijven op je apparaten.">
+  <meta name="twitter:description" content="Brace heeft geen accounts, geen advertenties, geen analytics en geen server die je gegevens bewaart. Je workouts blijven op je apparaten, tenzij je ervoor kiest ze te delen.">
   <meta name="twitter:image" content="https://mtfsahin.github.io/brace-site/og.png">
   <link rel="icon" href="../icon.png">
   <link rel="apple-touch-icon" href="../icon.png">
@@ -52,7 +52,9 @@
         <h1>Privacybeleid</h1>
         <p>Geldig vanaf 22 oktober 2026.</p>
         <p>Brace heeft geen accounts, geen advertenties, geen analytics en geen server die iets opslaat. De enige
-          netwerkverzoeken zijn voor Strava, en alleen nadat je Strava zelf hebt gekoppeld (zie hieronder).</p>
+          netwerkverzoeken zijn voor Strava, en alleen nadat je Strava zelf hebt gekoppeld (zie hieronder). De enige
+          uitzondering zijn officiële techniekpagina's en video's, die alleen laden als je ze opent, vanaf hun uitgever
+          en voor video's vanaf YouTube; Brace stuurt daarbij niets over jou mee.</p>
         <h2>Workouts, routines en instellingen</h2>
         <p>Ze worden op je apparaten bewaard: op je iPhone en in de reservekopie daarvan, en op je Apple Watch, die de
           workouts die je daar noteert doorgeeft aan je gekoppelde iPhone. Wij ontvangen ze nooit. Je kunt je training
@@ -63,15 +65,17 @@
           workouts, alleen om workouts te herkennen die je Apple Watch al heeft bewaard, zodat er geen twee keer wordt
           bewaard. Als je Apple Gezondheid koppelt voor gereedheid, leest het je hartslagvariabiliteit, rusthartslag,
           hartslag, ademhalingsfrequentie, polstemperatuur tijdens de slaap, slaapfasen, cardiofitness (VO2 max),
-          workouts die andere apps hebben bewaard, en je geboortedatum en geslacht, om je scores voor gereedheid,
-          trainingsbelasting en slaap op het apparaat te berekenen. Op de Apple Watch leest het tijdens een workout je
+          workouts die andere apps hebben bewaard, en je geboortedatum en geslacht, om je gereedheid,
+          trainingsbelasting, slaap, nachtsignalen en cardiofitness op het apparaat te berekenen, en om de coach op het
+          apparaat context te geven. Op de Apple Watch leest het tijdens een workout je
           hartslag en actieve energie om ze te tonen en met de workout te bewaren. Gezondheidsgegevens worden alleen
           daarvoor gebruikt, blijven op je apparaten, worden nooit naar ons of iemand anders gestuurd en worden nooit
-          voor advertenties gebruikt. Je kunt het op elk moment uitzetten in de instellingen van Brace of in de
-          Gezondheid-app.</p>
+          voor advertenties gebruikt. Wil je geen workouts meer bewaren, zet dan Bewaar workouts in Gezondheid uit
+          in de instellingen van Brace. Wil je niet dat Brace gezondheidsgegevens leest, pas dan de toestemmingen aan
+          in de Gezondheid-app.</p>
         <h2>Apple Intelligence</h2>
         <p>De nabespreking van een workout, de routinebouwer en Ask Brace gebruiken het taalmodel van Apple op je
-          iPhone. Wat ze uit je logboek lezen, wordt op het apparaat verwerkt en niet naar ons of iemand anders
+          iPhone. Wat ze uit je logboek en uit Gezondheid lezen, wordt op het apparaat verwerkt en niet naar ons of iemand anders
           gestuurd.</p>
         <h2>Strava</h2>
         <p>Optioneel. Alleen als je je Strava-account koppelt in de instellingen van Brace, stuurt Brace Strava de
@@ -80,8 +84,9 @@
           een plaatsing geen antwoord, dan leest Brace je Strava-activiteiten rond de tijd van die workout, alleen om
           te zien of hij is aangekomen, zodat hij nooit twee keer wordt geplaatst. Voor niets anders neemt Brace
           contact op met Strava. Inloggen bij Strava, en die login vernieuwen, loopt via een kleine tussenserver die
-          wij op Cloudflare draaien en die de Strava-appsleutel van Brace toevoegt: die ziet alleen de inlogcodes en
-          tokens op weg van en naar Strava, nooit je workouts, en slaat niets op en logt niets. De login blijft daarna
+          wij op Cloudflare draaien en die de Strava-appsleutel van Brace toevoegt: die verwerkt alleen de inlogcodes en
+          tokens, en het basisprofiel dat Strava daarbij meestuurt, zoals je naam, op weg van en naar Strava. Hij ziet
+          nooit je workouts en slaat er niets van op of logt er niets van. De login blijft daarna
           in de sleutelhanger van je iPhone, niet in een reservekopie. Wat je plaatst, valt onder het eigen
           privacybeleid van Strava. Ontkoppelen in de instellingen van Brace trekt de toegang van Brace in;
           activiteiten die al geplaatst zijn, blijven op Strava tot je ze daar verwijdert. Gezondheidsgegevens worden
@@ -89,8 +94,10 @@
         <h2>Aankopen</h2>
         <p>Abonnementen en de levenslange aankoop worden door Apple afgehandeld. Wij zien je betaalgegevens niet.</p>
         <h2>Je gegevens verwijderen</h2>
-        <p>Verwijder de app om alles te verwijderen wat hij heeft bewaard. Workouts die al in Apple Gezondheid zijn
-          bewaard, blijven daar tot je ze in de Gezondheid-app verwijdert.</p>
+        <p>Als je de app verwijdert, wordt verwijderd wat hij op je apparaten heeft bewaard. Ontkoppel Strava eerst
+          in de instellingen van Brace: dat trekt de toegang van Brace in en verwijdert de bewaarde login, die anders
+          in de sleutelhanger van je iPhone kan blijven staan. Workouts die al in Apple Gezondheid zijn bewaard of op
+          Strava zijn geplaatst, en bestanden die je hebt geëxporteerd, blijven daar tot je ze verwijdert.</p>
         <h2>Contact</h2>
         <p>Vragen over privacy: schrijf naar <a href="https://github.com/mtfsahin/brace-site/issues">github.com/mtfsahin/brace-site/issues</a>, of bekijk de <a href="support.html">ondersteuningspagina</a>.</p>
       </article>
