@@ -50,8 +50,9 @@
     <main id="main">
       <article>
         <h1>Polityka prywatności</h1>
-        <p>Obowiązuje od 16 października 2026 r.</p>
-        <p>Brace nie ma kont, reklam, analityki ani własnego serwera. Sam nie wysyła żadnych zapytań sieciowych.</p>
+        <p>Obowiązuje od 22 października 2026 r.</p>
+        <p>Brace nie ma kont, reklam, analityki ani serwera, który cokolwiek przechowuje. Jedyne zapytania sieciowe
+          wysyła do serwisu Strava i tylko wtedy, gdy sam połączysz konto Strava (patrz niżej).</p>
         <h2>Treningi, rutyny i ustawienia</h2>
         <p>Są przechowywane na Twoich urządzeniach: na iPhonie i w jego kopii zapasowej oraz na Apple Watch, który
           przekazuje zapisane na nim treningi do sparowanego iPhone'a. Nigdy ich nie otrzymujemy. Możesz samodzielnie wyeksportować
@@ -61,14 +62,30 @@
         <p>Tylko jeśli to włączysz, Brace zapisuje Twoje treningi w Apple Zdrowie. Na iPhonie odczytuje tam też Twoje
           treningi, wyłącznie po to, by rozpoznać treningi zapisane już przez Apple Watch, żeby żaden nie zapisał się
           dwa razy. Jeśli połączysz Apple Zdrowie na potrzeby gotowości, odczytuje zmienność rytmu serca, tętno
-          spoczynkowe i sen z ostatniej nocy, aby obliczyć Twój wynik gotowości na urządzeniu. Na Apple Watch podczas
+          spoczynkowe, tętno, częstość oddechów, temperaturę nadgarstka podczas snu, fazy snu, wydolność
+          krążeniowo-oddechową (VO2 max), treningi zapisane przez inne aplikacje oraz Twoją datę urodzenia i płeć, aby
+          obliczyć Twoje wyniki gotowości, obciążenia treningowego i snu na urządzeniu. Na Apple Watch podczas
           treningu odczytuje tętno i energię aktywną, aby je pokazać i zapisać razem z treningiem. Dane o zdrowiu są
-          używane tylko do tego, zostają na Twoich urządzeniach, nigdy nie są wysyłane do nas ani nikogo innego i nigdy
-          nie służą do reklam. Możesz to wyłączyć w każdej chwili w ustawieniach Brace lub w aplikacji Zdrowie.</p>
+          używane tylko do tego, zostają na Twoich urządzeniach, nigdy nie są wysyłane do nas ani nikogo innego i
+          nigdy nie służą do reklam. Możesz to wyłączyć w każdej chwili w ustawieniach Brace lub w aplikacji
+          Zdrowie.</p>
         <h2>Apple Intelligence</h2>
         <p>Podsumowanie treningu, kreator rutyn i Zapytaj Brace korzystają z modelu językowego Apple na Twoim iPhonie.
           To, co odczytują z Twojego dziennika, jest przetwarzane na urządzeniu i nie jest wysyłane do nas ani nikogo
           innego.</p>
+        <h2>Strava</h2>
+        <p>Opcjonalnie. Tylko jeśli połączysz swoje konto Strava w ustawieniach Brace, Brace wysyła do serwisu Strava
+          treningi, które tam publikujesz, albo każdy ukończony trening, jeśli włączysz automatyczne publikowanie:
+          nazwę treningu, godzinę rozpoczęcia, czas trwania i opis z listą ćwiczeń, serii i nowych rekordów. Gdy
+          publikacja nie dostała odpowiedzi, Brace odczytuje Twoje aktywności w serwisie Strava z okolic czasu tego
+          treningu, wyłącznie po to, by sprawdzić, czy dotarła, żeby nigdy nie opublikować jej dwa razy. Do niczego
+          innego Brace nie łączy się z serwisem Strava. Logowanie do serwisu Strava i jego odnawianie przechodzi przez
+          mały przekaźnik, który prowadzimy w Cloudflare i który dodaje klucz aplikacji Brace w serwisie Strava: widzi
+          on tylko kody i tokeny logowania w drodze do i z serwisu Strava, nigdy Twoich treningów, i niczego nie
+          przechowuje ani nie zapisuje w logach. Dane logowania zostają potem w pęku kluczy Twojego iPhone'a, a nie w
+          kopii zapasowej. To, co publikujesz, podlega własnej polityce prywatności serwisu Strava. Rozłączenie w
+          ustawieniach Brace odbiera Brace dostęp; już opublikowane aktywności zostają w serwisie Strava, dopóki ich
+          tam nie usuniesz. Dane o zdrowiu nigdy nie są wysyłane do serwisu Strava.</p>
         <h2>Zakupy</h2>
         <p>Subskrypcje i zakup dożywotni obsługuje Apple. Nie widzimy Twoich danych płatniczych.</p>
         <h2>Usuwanie danych</h2>
